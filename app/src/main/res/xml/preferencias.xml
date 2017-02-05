@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+    <EditTextPreference
+        android:key="Login"
+        android:title="Login del Usuario"
+        android:summary="Login para autenticacion"
+        android:defaultValue=""/>
+    <EditTextPreference
+        android:key="Password"
+        android:title="Password del Usuario"
+        android:summary="Password para autentificacion"
+        android:defaultValue=""/>
+    <CheckBoxPreference
+        android:title="Autentificado"
+        android:selectable="false"
+        android:enabled="false"
+        android:key="auth"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:key="IP"
+        android:title="IP de la Ruta"
+        android:summary="Ip para la conexión"
+        android:defaultValue="carremember.x10.mx"/>
+    <EditTextPreference
+        android:key="TallerX"
+        android:title="Coordenada X para el taller"
+        android:summary="Coordenada X Geolocalizacion del taller"
+        android:enabled="false"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="TallerY"
+        android:title="Coordenada Y para el taller"
+        android:summary="Coordenada Y Geolocalizacion del taller"
+        android:enabled="false"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="Telefono"
+        android:title="Telefono"
+        android:enabled="false"
+        android:summary="Telefono del taller"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="Taller"
+        android:title="Id Taller"
+        android:enabled="false"
+        android:summary="Id del taller elegido"
+        android:defaultValue="0"/>
+
+</PreferenceScreen>

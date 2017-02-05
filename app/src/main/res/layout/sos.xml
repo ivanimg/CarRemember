@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergencias"
+        android:id="@+id/btnSos"
+        android:layout_gravity="center_horizontal"
+        android:onClick="llamarSos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_taller"
+        android:id="@+id/btnTelT"
+        android:layout_gravity="center_horizontal"
+        android:onClick="llamarTaller" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/llegar_sos"
+        android:id="@+id/btnMapT"
+        android:layout_gravity="center_horizontal"
+        android:onClick="verRuta" />
+</LinearLayout>
